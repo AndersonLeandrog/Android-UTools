@@ -17,13 +17,13 @@
 #### 6. Depois de selecionar a versão aguarde o processo de instalação do TWRP no seu aparelho, se tudo correr normalmente será exibida uma tela de sucesso no console.
 
 
-### Lista de aparelhos suportados
-####  - Motorola Moto G5 
-####  - Motorola Moto G5s
-####  - Motorola Moto G5 Plus
-####  - Motorola Moto G5s Plus
-####    - Motorola Moto G4 Play (em andamento...)
-####    - Motorola Moto G4 Plus (em andamento...)
-####    - Motorola Moto G3 (em andamento...)
-####    - Motorola Moto G2 (em andamento...)
-####    - Motorola Moto G (em andamento...)
+#### Lista de aparelhos suportados
+#####  - Motorola Moto G5 
+#####  - Motorola Moto G5s
+#####  - Motorola Moto G5 Plus
+#####  - Motorola Moto G5s Plus
+#####    - Motorola Moto G4 Play (em andamento...)
+#####    - Motorola Moto G4 Plus (em andamento...)
+#####    - Motorola Moto G3 (em andamento...)
+#####    - Motorola Moto G2 (em andamento...)
+#####    - Motorola Moto G (em andamento...)
