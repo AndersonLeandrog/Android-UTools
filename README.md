@@ -4,9 +4,9 @@
 
 #### **_Tutorial de instalação:_**
 
-*##### 1. Baixe o autorun e em seguida extraia todo seu conteúdo na sua área de trabalho.
+*##### 1. Baixe o autorun e em seguida extraia todo seu conteúdo na sua área de trabalho.*
 
-##### 2. Conecte o seu celular ao computador via fastboot.
+*##### 2. Conecte o seu celular ao computador via fastboot.*
 
 ##### 3. Abra a pasta extraida e execute o arquivo 'autorunfb'.
 
