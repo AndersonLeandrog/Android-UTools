@@ -23,8 +23,8 @@
 ######  *- Motorola Moto G5s*
 ######  *- Motorola Moto G5 Plus*
 ######  *- Motorola Moto G5s Plus*
-######  *- Motorola Moto G4 Play (em andamento...)*
-######  *- Motorola Moto G4 Plus (em andamento...)*
+######  *- Motorola Moto G4 Play 
+######  *- Motorola Moto G4 Plus
 ######  *- Motorola Moto G3 (em andamento...)*
 ######  *- Motorola Moto G2 (em andamento...)*
 ######  *- Motorola Moto G (em andamento...)*
