@@ -22,7 +22,7 @@
 ######  *- Motorola Moto G5*
 ######  *- Motorola Moto G5s*
 ######  *- Motorola Moto G5 Plus*
-######  *- Motorola Moto G5s Plus*
+######  *- Motorola Moto G5s Plus (adicionado suporte ao twrp 3.3.1-0 unofficial)*
 ######  *- Motorola Moto G4 Play 
 ######  *- Motorola Moto G4 Plus
 ######  *- Motorola Moto G3 (em andamento...)*
