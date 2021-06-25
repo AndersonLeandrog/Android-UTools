@@ -1,6 +1,6 @@
 
 #### Motorola autorun,
-#### Instale o TWRP no seu aparelho Motorola Moto G5s Plus automaticamente com esse autorun.
+#### Instale o TWRP no seu aparelho Motorola automaticamente com esse autorun.
 
 
 ##### **_Tutorial de instalação:_**
