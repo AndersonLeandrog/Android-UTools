@@ -19,7 +19,7 @@
 ```
 
 
-### Pré-requisitos
+#### Pré-requisitos
 ```
 - Computador rodando Windows *(x86 ou x64)*
 - Motorola device manager instalado
