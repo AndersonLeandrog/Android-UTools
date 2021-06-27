@@ -4,6 +4,7 @@
 
 
 #### Aparelhos Suportados
+```
 ###### • Motorola Moto G1 *(all versions)*
 ###### • Motorola Moto G3 *(all versions)*
 ###### • Motorola Moto G4 *(all versions)*
@@ -12,6 +13,7 @@
 ###### • Motorola Moto G7 *(all versions)*
 ###### • Motorola Moto G8 *(all versions)*
 ###### • Motorola Moto G9 *(all versions)*
+```
 
 
 #### Pré-requisitos
