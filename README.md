@@ -38,6 +38,7 @@
 ######  *- Motorola Moto G4 Plus
 ######  *- Motorola Moto G3 (em andamento...)*
 ######  *- Motorola Moto G2 (em andamento...)*
-######  *- Motorola Moto G (em andamento...)*
+######  *- Motorola Moto G*
 
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
+
+![Badge](https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=for-the-badge&logo=ghost)
