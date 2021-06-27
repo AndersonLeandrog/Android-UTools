@@ -1,6 +1,6 @@
 
-#### Motorola autorun,
-#### Instale o TWRP no seu aparelho Motorola automaticamente com esse autorun.
+### RunTWRP
+#### Descrição: Instale o TWRP no seu aparelho Motorola automaticamente com o RunTWRP, esse é um executável feito para automatizar a instalação do TRWP no seu aparelho, desenvolvido e compilado em CPP, dentre suas vantagens está a inclusão de diversos aparelhos compatíveis da linha G1, G2, G3, G4, G5, G6, G7, G8 e G9 (consulte a lista no final do post), inclusão de programas necessários para a instalação como o Motorola Device Manager e o próprio arquivo .img do TWRP, o arquivo pesa menos de 5MB e todos os downloads dentro dele são feitos através dos servidores oficiais.
 
 
 ##### **_Tutorial de instalação:_**
@@ -39,6 +39,3 @@
 ######  *- Motorola Moto G3 (em andamento...)*
 ######  *- Motorola Moto G2 (em andamento...)*
 ######  *- Motorola Moto G*
-
-
-![Badge](https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=for-the-badge&logo=ghost)
