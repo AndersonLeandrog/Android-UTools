@@ -16,22 +16,19 @@
 
 ![alt text](https://uploaddeimagens.com.br/images/003/308/464/original/pic1.png?1624814081)
 
-###### *5. Selecione o modelo do aparelho que você deseja instalar o twrp,*
-###### *através da sua numeração na lista.*
+###### *5. Selecione o modelo do aparelho que você deseja instalar o twrp, através da sua numeração na lista.*
 
 ![alt text](https://uploaddeimagens.com.br/images/003/308/465/original/pic2.png?1624814176)
 
-###### *6. Em seguida selecione a versão do TWRP que você deseja instalar no seu Motorola.*
-###### *(Os arquivos serão baixados direto do servidor oficial do TWRP - twrp.me)*
+###### *6. Em seguida selecione a versão do TWRP que você deseja instalar no seu Motorola. (Os arquivos serão baixados direto do servidor oficial do TWRP - twrp.me)*
 
 ![alt text](https://uploaddeimagens.com.br/images/003/308/466/original/pic3.png?1624814248)
 
-###### *7. Depois de selecionar a versão aguarde o processo de instalação do TWRP no seu aparelho,*]
-###### *se tudo correr normalmente será exibida uma tela de sucesso no console.*
+###### *7. Depois de selecionar a versão aguarde o processo de instalação do TWRP no seu aparelho, se tudo correr normalmente será exibida uma tela de sucesso no console.*
 
 ![alt text](https://uploaddeimagens.com.br/images/003/308/468/original/pic4.png?1624814446)
 
-##### **_Lista de aparelhos suportados_**
+##### ![#f03c15](**_Lista de aparelhos suportados_**) `#f03c15`
 ######  *- Motorola Moto G5*
 ######  *- Motorola Moto G5s*
 ######  *- Motorola Moto G5 Plus*
