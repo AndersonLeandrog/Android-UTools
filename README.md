@@ -15,7 +15,7 @@
 
 ![alt text](https://uploaddeimagens.com.br/images/003/308/464/original/pic1.png?1624814081)
 
-###### *5. Selecione o modelo do aparelho que você deseja instalar o twrp através da sua numeração na lista.
+###### *5. Selecione o modelo do aparelho que você deseja instalar o twrp através da sua numeração na lista.*
 
 ![alt text](https://uploaddeimagens.com.br/images/003/308/465/original/pic2.png?1624814176)
 
