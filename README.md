@@ -49,8 +49,8 @@
 
 
 #### Contribuição
-###### • www.twrp.me
-###### • www.motorola.com.br
+###### • [TWRP Site](www.twrp.me)
+###### • [Motorola Site](www.motorola.com.br)
 
 
 #### Autor
