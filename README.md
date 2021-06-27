@@ -28,9 +28,8 @@
 
 ![alt text](https://uploaddeimagens.com.br/images/003/308/468/original/pic4.png?1624814446)
 
-```diff
-! ##### **_Lista de aparelhos suportados_**
-```
+<span style="color: green">! ##### **_Lista de aparelhos suportados_**</span>
+
 ######  *- Motorola Moto G5*
 ######  *- Motorola Moto G5s*
 ######  *- Motorola Moto G5 Plus*
