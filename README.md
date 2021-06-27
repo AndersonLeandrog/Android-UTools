@@ -13,6 +13,8 @@
 
 ###### *4. Siga os procedimentos no console, caso não tenha os drivers da Motorola instalados, selecione uma opção de acordo com o seu sistema, caso já tenha selecione a opção 'Não instalar' no console.*
 
+![alt text](https://uploaddeimagens.com.br/images/003/308/464/original/pic1.png?1624814081)
+
 ###### *5. Em seguida selecione a versão do TWRP que você deseja instalar no seu Moto G5s Plus. Os arquivos serão baixados direto do servidor oficial do TWRP - twrp.me)*
 
 ###### *6. Depois de selecionar a versão aguarde o processo de instalação do TWRP no seu aparelho, se tudo correr normalmente será exibida uma tela de sucesso no console.*
