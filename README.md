@@ -28,7 +28,7 @@
 
 ![alt text](https://uploaddeimagens.com.br/images/003/308/468/original/pic4.png?1624814446)
 
-<span style="color: green">! ##### **_Lista de aparelhos suportados_**</span>
+##### **_Lista de aparelhos suportados_**
 
 ######  *- Motorola Moto G5*
 ######  *- Motorola Moto G5s*
@@ -39,3 +39,5 @@
 ######  *- Motorola Moto G3 (em andamento...)*
 ######  *- Motorola Moto G2 (em andamento...)*
 ######  *- Motorola Moto G (em andamento...)*
+
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
