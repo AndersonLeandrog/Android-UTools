@@ -9,7 +9,7 @@
 
 ###### *2. Conecte o seu celular ao computador via fastboot.*
 
-###### *3. Abra a pasta extraida e execute o arquivo 'autorunfb'.*
+###### *3. Abra a pasta extraida e execute o arquivo 'autorun'.*
 
 ###### *4. Siga os procedimentos no console, caso não tenha os drivers da Motorola instalados, selecione uma opção de acordo com o seu sistema, caso já tenha selecione a opção 'Não instalar' no console.*
 
