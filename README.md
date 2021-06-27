@@ -5,16 +5,16 @@
 
 #### Aparelhos Suportados
 ```
-- [x] Motorola Moto G1 *(all versions)*
-- [ ] Motorola Moto G2 *(all versions)*
-- [ ] Motorola Moto G3 *(all versions)*
-- [x] Motorola Moto G4 *(all versions)*
-- [x] Motorola Moto G5 *(all versions)*
-- [x] Motorola Moto G6 *(all versions)*
-- [x] Motorola Moto G7 *(all versions)*
-- [x] Motorola Moto G8 *(all versions)*
-- [x] Motorola Moto G9 *(all versions)*
-- [ ] Motorola Moto G100 *(all versions)*
+- [x] Motorola Moto G1 (all versions)
+- [ ] Motorola Moto G2 (all versions)
+- [ ] Motorola Moto G3 (all versions)
+- [x] Motorola Moto G4 (all versions)
+- [x] Motorola Moto G5 (all versions)
+- [x] Motorola Moto G6 (all versions)
+- [x] Motorola Moto G7 (all versions)
+- [x] Motorola Moto G8 (all versions)
+- [x] Motorola Moto G9 (all versions)
+- [ ] Motorola Moto G100 (all versions)
 
 ```
 
@@ -52,12 +52,12 @@
 
 
 #### Contribuição
-###### • [TWRP Site](www.twrp.me)
-###### • [Motorola Site](www.motorola.com.br)
+###### • [TWRP Site](www.twrp.me) :+1:
+###### • [Motorola Site](www.motorola.com.br) :+1:
 
 
 #### Autor
-###### • Anderson Leandro ~ OCOD
+###### • Anderson Leandro ~ OCOD 
 
 
 
