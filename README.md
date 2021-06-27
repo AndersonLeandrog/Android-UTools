@@ -20,8 +20,10 @@
 
 
 #### Pré-requisitos
-###### • Computador rodando Windows *(x86 ou x64)*
-###### • Motorola device manager instalado
+```
+- Computador rodando Windows *(x86 ou x64)*
+- Motorola device manager instalado
+```
 
 
 #### Tutorial de instalação
@@ -48,16 +50,22 @@
 
 
 #### Tecnologias Utilizadas
-###### • C/C++
+```
+- • C/C++
+```
 
 
 #### Contribuição
-###### • [TWRP Site](www.twrp.me) :+1:
-###### • [Motorola Site](www.motorola.com.br) :+1:
+```
+- [TWRP Site](www.twrp.me) :+1:
+- [Motorola Site](www.motorola.com.br) :+1:
+```
 
 
 #### Autor
-###### • Anderson Leandro ~ OCOD 
+```
+- Anderson Leandro ~ OCOD 
+```
 
 
 
