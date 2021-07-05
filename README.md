@@ -18,6 +18,9 @@
 ###### *1. Baixe o zip _runTWRP(stable) e em seguida extraia todo seu conteúdo na sua área de trabalho ou no local que preferir.*
 ###### *2. Tenha em maos o arquivo de imagem do twrp para o seu modelo de celular (voce pode baixar pelo site official do twrp ou pode baixar atraves de outros sites) o programa suporta qualquer arquivo de imagem do twrp nao importa se e official ou unofficial*
 ###### *3. Faça uma copia do arquivo de imagem do twrp que voce baixou e cole ou mova ele para a raiz do programa, runTWRP/[aqui] (nao e necessario renomear o arquivo de imagem para 'twrp.img' o proprio programa realizara essa modificaçao)*
+
+![Alt text](https://i.ibb.co/1K8QpSk/1.png)
+
 ###### *4. Execute o arquivo .exe '_runTWRP' e siga os procedimentos de instalaçao!*
 
 #### Tecnologias Utilizadas
