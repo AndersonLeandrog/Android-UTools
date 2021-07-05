@@ -9,7 +9,7 @@
 - Motorola device manager instalado
 ```
 
-![Badge]https://img.shields.io/badge/__runTWRP-stable-brightgreen
+![Badge](https://img.shields.io/badge/__runTWRP-stable-brightgreen)
 
 #### Tutorial de instalação
 
