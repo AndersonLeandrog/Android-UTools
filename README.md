@@ -9,7 +9,7 @@
 - Motorola device manager instalado
 ```
 
-[![GitHub issues](https://img.shields.io/github/issues/AndersonLeandrog/RunTWRP?color=green&label=_runTWRP&logo=stable&logoColor=green)](https://github.com/AndersonLeandrog/RunTWRP/issues)
+[![GitHub issues](https://img.shields.io/github/issues/AndersonLeandrog/RunTWRP?color=green&label=_runTWRP&logo=stable&logoColor=green)](https://github.com/AndersonLeandrog/RunTWRP/releases)
 
 #### Tutorial de instalação
 
