@@ -4,7 +4,7 @@
 
 
 #### Downloads
-[![GitHub releases](https://img.shields.io/badge/__runTWRP-stable-brightgreen)](https://github.com/AndersonLeandrog/RunTWRP/releases) [![GitHub releases](https://img.shields.io/badge/__runTWRP-beta-orange)](https://github.com/AndersonLeandrog/RunTWRP/releases)
+[![GitHub releases](https://img.shields.io/badge/__runTWRP-stable-brightgreen)](https://github.com/AndersonLeandrog/RunTWRP/releases) [![GitHub releases](https://img.shields.io/badge/__runTWRP-beta-orange)](https://github.com/AndersonLeandrog/RunTWRP/releases) [![GitHub issues](https://img.shields.io/github/issues/AndersonLeandrog/RunTWRP)](https://github.com/AndersonLeandrog/RunTWRP/issues)
 
 
 #### Prerequisites
