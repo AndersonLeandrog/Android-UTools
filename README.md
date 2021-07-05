@@ -11,7 +11,8 @@
 
 [![GitHub releases](https://img.shields.io/badge/__runTWRP-stable-brightgreen)](https://github.com/AndersonLeandrog/RunTWRP/releases)
 
-[![GitHub issues](https://img.shields.io/github/issues/AndersonLeandrog/RunTWRP?color=green&label=_runTWRP&logo=stable&logoColor=green)](https://github.com/AndersonLeandrog/RunTWRP/releases)
+[![GitHub releases](https://img.shields.io/badge/__runTWRP-beta-orange)](https://github.com/AndersonLeandrog/RunTWRP/releases)
+
 
 #### Tutorial de instalação
 
