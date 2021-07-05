@@ -17,7 +17,7 @@
 
 ###### *1. Download the _runTWRP(stable) zip and then extract all its contents to your desktop or wherever you prefer.*
 ###### *2. Have at hand the twrp image file for your phone model (you can download it from the official twrp website or you can download it from other websites) the program supports any twrp image file no matter if it is official or unofficial*
-###### *3. Make a copy of the twrp image file you downloaded and paste or move it to the program root, runTWRP/[here] (you don't need to rename the image file to 'twrp.img' the program itself will make this change) *
+###### *3. Make a copy of the twrp image file you downloaded and paste or move it to the program root, runTWRP/[here] (you don't need to rename the image file to 'twrp.img' the program itself will make this change)*
 
 ![Alt text](https://i.ibb.co/1K8QpSk/1.png)
 
