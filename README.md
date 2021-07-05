@@ -2,7 +2,10 @@
 # RunTWRP
 ##### *Instale o TWRP em qualquer aparelho automaticamente com o RunTWRP, esse é um executável feito para automatizar a instalação do TWRP no seu aparelho, desenvolvido e compilado em CPP, dentre suas vantagens está a inclusão de diversos aparelhos compatíveis de diversas marcas, inclusão de programas necessários para a instalação como o Motorola Device Manager, o arquivo pesa menos de 1MB siga o tutorial para saber como proceder na utilizaçao do software.*
 
+
+#### Downloads
 [![GitHub releases](https://img.shields.io/badge/__runTWRP-stable-brightgreen)](https://github.com/AndersonLeandrog/RunTWRP/releases) [![GitHub releases](https://img.shields.io/badge/__runTWRP-beta-orange)](https://github.com/AndersonLeandrog/RunTWRP/releases)
+
 
 #### Pré-requisitos
 ```
