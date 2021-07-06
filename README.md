@@ -23,6 +23,11 @@
 
 ###### *4. Run the '_runTWRP' .exe file and follow the installation procedures!*
 
+
+#### Video Tutorial
+
+[![Alt text](https://i.ibb.co/JsRKw0J/Sem-T-tulo.png)](https://www.youtube.com/watch?v=ZP2O9shivTQ)
+
 #### Technologies Used
 ```
 - C/C++
