@@ -37,6 +37,7 @@
 
 #### Contribution
 - [TWRP Site](www.twrp.me) :+1:
+- [ClockWorkMode](www.adb.clockworkmod.com) :+1:
 - [Motorola Site](www.motorola.com.br) :+1:
 
 
