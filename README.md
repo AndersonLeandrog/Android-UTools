@@ -9,8 +9,9 @@
 
 #### Prerequisites
 ```
-- Computer running Windows *(x86 or x64)*
-- Motorola device manager installed
+- ADB and Fastboot drivers
+- Computer running Windows (x86 or x64)
+- Drivers for your device model
 ```
 
 #### Installation tutorial
