@@ -27,7 +27,7 @@
 
 #### Video Tutorial
 
-[![Alt text](https://i.ibb.co/JsRKw0J/Sem-T-tulo.png)](https://www.youtube.com/watch?v=ZP2O9shivTQ)
+[![Alt text](https://i.ibb.co/JsRKw0J/Sem-T-tulo.png)](https://www.youtube.com/watch?v=xGDmMr4wF7I&feature=youtu.be)
 
 #### Technologies Used
 ```
