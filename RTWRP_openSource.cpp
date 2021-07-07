@@ -51,13 +51,13 @@ int main()
 	
 	cin >> path;
 	FILE * pFile; //cria um ponteiro para o arquivo
-	pFile = fopen ("grab.txt","wt"); //cria e abre o arquivo em modo de gravaçao
+	pFile = fopen ("grab.txt","wt"); //cria e abre o arquivo em modo de gravaÃ§ao
 	fprintf (pFile, "move %s",path); //grava uma string seguida de uma variavel
 	fclose (pFile); //fecha o arquivo
    	
    	system("ren grab.txt grab.bat"); //renomeia o arquivo criado para .bat
    	system("grab.bat"); //executa o arquivo .bat
-   	system("del grab.bat"); //deleta o arquivo .bat depois da sua execuçao
+   	system("del grab.bat"); //deleta o arquivo .bat depois da sua execuÃ§ao
 	
 	system("cls");
 	
@@ -80,7 +80,7 @@ int main()
 	system("cls");
 	
 	system("title RTWRP by OCOD _ restarting the device...");
-	system("fastboot boot twrp.img"); //reinicia o aparelho no modo de recuperaçao
+	system("fastboot boot twrp.img"); //reinicia o aparelho no modo de recuperaÃ§ao
 	Sleep(1000);
 	
 	system("cls");
