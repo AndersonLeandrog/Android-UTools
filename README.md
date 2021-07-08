@@ -1,6 +1,6 @@
 
-# RunTWRP
-##### *Install TWRP on any device automatically with RunTWRP, this is an executable designed to automate the installation of TWRP on your device, developed and compiled in CPP, among its advantages is the inclusion of several compatible devices of different brands, inclusion of necessary programs for installation such as Motorola Device Manager, the file weighs less than 1MB follow the tutorial to learn how to use the software.*
+# Android User Tools
+##### *Install TWRP on any device automatically with AndroidUserTools, this is an executable designed to automate the installation of TWRP,bootloader unlock, magisk installation and more, developed and compiled in CPP, among its advantages is the inclusion of several compatible devices of different brands, the file weighs less than 1.5MB follow the tutorial to learn how to use the software.*
 
 
 #### Downloads
@@ -16,16 +16,10 @@
 
 #### Installation tutorial
 
-###### *1. Download the _runTWRP(stable) zip and then extract all its contents to your desktop or wherever you prefer.*
-###### *2. Have at hand the twrp image file for your phone model (you can download it from the official twrp website or you can download it from other websites) the program supports any twrp image file no matter if it is official or unofficial*
-###### *3. Make a copy of the twrp image file you downloaded and paste or move it to the program root, runTWRP/[here] (you don't need to rename the image file to 'twrp.img' the program itself will make this change)*
-
-![Alt text](https://i.ibb.co/1K8QpSk/1.png)
-
-###### *4. Run the '_runTWRP' .exe file and follow the installation procedures!*
+###### *Download the AndroidUserTools(stable).zip and then extract all its contents to your desktop or wherever you prefer, open AndroidUserTools.exe and follow the tutorial for each process, whether installing TWRP, unlocking bootloader or installing Magisk...*
 
 
-#### Video Tutorial
+#### Video Tutorial to install TWRP
 
 [![Alt text](https://i.ibb.co/JsRKw0J/Sem-T-tulo.png)](https://www.youtube.com/watch?v=xGDmMr4wF7I&feature=youtu.be)
 
