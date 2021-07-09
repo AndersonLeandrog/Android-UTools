@@ -11,7 +11,7 @@ using namespace std;
 int main() 
 {
 	//exibe o titulo do programa (nao esqueÃ§a de dar os creditos ao desenvolvedor original do projeto)
-	system("title AndroidUserTools by OCOD ~ ver 1.2.3 (stable)");
+	system("title AndroidUserTools by OCOD ~ ver 1.3.4 (beta)");
 
 	//cria a variavel proc de 'processo' e key de 'chave'
 	int proc;
@@ -19,7 +19,7 @@ int main()
 	
 	/*exibe uma mensagem perguntando sobre o tipo de proceso a ser realizado para o usuario e grava a
 	resposta na variavel proc*/
-	cout << "\n Select a process to start\n\n  [1] TWRP Install\n  [2] Bootloader Unlock (Motorola)\n  [3] Magisk/Tutorial\n\n > ";
+	cout << "\n Select a process to start\n\n  [1] TWRP Install\n  [2] Bootloader Unlock (Motorola)\n  [3] Magisk/Tutorial\n\n  [4] Install APK/ADB\n  [5] Unistall APK/ADB\n\n > ";
 	cin >> proc;
 	
 	system("cls");
@@ -52,19 +52,14 @@ int main()
 			cout << "   [https://www.youtube.com/channel/UCqnVsLksN6n7XjpDP-urM5Q]\n\n\n\n";
 			
 			
-			cout << "               DRAG THE TWRP IMAGE FILE HERE,             " << endl;
-			cout << "               AND PRESS [ENTER] TO CONTINUE!             " << endl;
-			cout << "                                                          " << endl;
-			cout << "                           _______                        " << endl;
-			cout << "                         _|       |                       " << endl;
-			cout << "                        | |       |                       " << endl;
-			cout << "                        | |       |                       " << endl;
-			cout << "                        | |       |                       " << endl;
-			cout << "                        | |       |                       " << endl;
-			cout << "                        | |       |                       " << endl;
-			cout << "                        | |       |                       " << endl;
-			cout << "                        | |_______|                       " << endl;
-			cout << "                        |________|                        " << endl;
+			cout << "                   DRAG THE IMG FILE HERE,                \n";
+			cout << "               AND PRESS [ENTER] TO CONTINUE!             \n";
+			cout << "                                                          \n";
+			cout << "               0 0   0 00000  0000 0 0    0000            \n";
+			cout << "               0 0 0 0 0      0    0 0    0               \n";
+			cout << "               0 0   0 0  00  000  0 0    0000            \n";
+			cout << "               0 0   0 0   0  0    0 0    0               \n";
+			cout << "             0 0 0   0 00000  0    0 0000 0000            \n";
 			cout << "\n\n > ";
 			cin >> path;
 			
@@ -176,6 +171,68 @@ int main()
 			cout << "\n\n 5. After flashing the file, boot the system and install\n    the latest version of margisk.apk";
 			cout << "\n\n\n done! now you can enjoy the magic!";
 			getch();
+			
+			exit(0);
+			break;
+			
+		case 4:
+			reload:
+				
+			char apk[500];
+			char answer;
+			
+			cout << "\n Enable usb debugging on your device,";
+			cout << "\n\n  Go to your device settings, enable developer mode\n  and within that option enable usb debug mode!\n\n";
+			cout << "                   DRAG THE APK FILE HERE,                \n";
+			cout << "               AND PRESS [ENTER] TO CONTINUE!             \n";
+			cout << "                                                          \n";
+			cout << "               0   0000  0  0  0000 0 0    0000          \n";
+			cout << "              0 0  0   0 0 0   0    0 0    0             \n";
+			cout << "             00000 0000  00    000  0 0    0000          \n";
+			cout << "             0   0 0     0 0   0    0 0    0             \n";
+			cout << "           0 0   0 0     0  0  0    0 0000 0000          \n";
+			cout << "\n\n > ";	
+			cin >> apk;
+			
+			/*cria e abre um arquivo do tipo .txt em modo de gravacao e em seguida grava uma
+			string seguida do codigo dentro da variavel apk*/
+			FILE * arq_apk; 
+			arq_apk = fopen ("apk.txt","wt"); 
+			fprintf (arq_apk, "adb install -r %s",apk); 
+			fclose (arq_apk); 
+			
+			/*renomeia o arquivo apk.txt criado para key.bat e executa esse arquivo em seguida,
+			apos sua execuÃ§ao o arquivo e removido da pasta raiz*/
+			system("ren apk.txt apk.bat");
+	   		system("apk.bat"); 
+	   		system("del apk.bat"); 
+	   		system("cls");
+	   		
+			/*exibe a mensagem de sucesso, aplicativo foi instalado com sucesso!*/
+	   		cout << "\n " << apk << " - has been successfully installed!";
+	   		cout << "\n\n Install another apk? [y]//[n]";
+	   		cout << "\n\n > ";
+	   		cin >> answer;
+	   		
+	   		if (answer == 'y' or answer == 'Y')
+	   		{
+	   			system("cls");
+	   			goto reload;
+			} else {
+				exit(0);
+			}
+						
+			break;
+			
+		case 5:	
+			cout << "\n Enable usb debugging on your device,";
+			cout << "\n\n  Go to your device settings, enable developer mode\n  and within that option enable usb debug mode!\n";	
+			cout << "\n\n  type the command followed by the package name as in\n  the example below and press [ENTER]\n";
+			cout << "\n  exemple: pm uninstall -k --user 0 com.yourpackage.name";	
+			cout << "\n           ---------command-------- -----packagename----\n\n\n";
+			
+			system("adb shell");
+	   		getch();
 			
 			exit(0);
 			break;
