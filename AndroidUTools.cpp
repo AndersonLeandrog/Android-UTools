@@ -19,14 +19,14 @@ int main()
 	
 	/*exibe uma mensagem perguntando sobre o tipo de proceso a ser realizado para o usuario e grava a
 	resposta na variavel proc*/
-	cout << "\n Select a process to start\n\n  [1] TWRP Install\n  [2] Bootloader Unlock (Motorola)\n  [3] Magisk/Tutorial\n\n  [4] Install APK/ADB\n  [5] Unistall APK/ADB\n\n > ";
+	cout << "\n Select a process to start\n\n  [1] TWRP Install\n\n  [2] Bootloader Unlock (Motorola)\n  [3] Remove bootloader logo\n\n  [4] Magisk/Tutorial\n\n  [5] Install APK/ADB\n  [6] Unistall APK/ADB\n\n > ";
 	cin >> proc;
 	
 	system("cls");
 	
 	switch(proc)
 	{
-		case 1:
+		case 1: //twrp 
 			//exibe uma mensagem de instruÃ§ao para a instalaÃ§ao do TWRP e aguarda ate que uma tecla seja pressionada
 			cout << "\n INSTRUCTION:  download  the twrp  image  to your device," << endl;
 			cout << " connect your device to the PC and  press  [ENTER],  on  the" << endl;
@@ -106,7 +106,7 @@ int main()
 			exit(0);
 		break;
 			
-		case 2:
+		case 2: //Bootloader
 			//exibe uma mensagem ao usuario
 			cout << "\n connect your device in recovery mode and press [ENTER]...";
 			getch();
@@ -161,7 +161,54 @@ int main()
 	   		exit(0); //finaliza o programa
 		break;
 		
-		case 3:
+		case 3: //bootloader logo
+			char bin[10];
+			
+			cout << "\n Connect your device in fastboot mode and press [ENTER]...";
+			getch();
+			
+			system("cls");
+			
+			cout << "\nCheck if your device has been recognized, if so press [ENTER] again...\n\n";
+			system("fastboot devices");
+			getch();
+			
+			system("cls");
+			
+			cout << "\n You will need the logo file for your cell phone model\n in .bin format, drag the file to the console below and press [ENTER]\n\n\n";
+			cout << "                   DRAG THE BIN FILE HERE,                \n";
+			cout << "               AND PRESS [ENTER] TO CONTINUE!             \n";
+			cout << "                                                          \n";
+			cout << "              0000  0 0   0  0000 0 0    0000             \n";
+			cout << "              0   0 0 00  0  0    0 0    0                \n";
+			cout << "              0000  0 0 0 0  000  0 0    0000             \n";
+			cout << "              0   0 0 0  00  0    0 0    0                \n";
+			cout << "            0 0000  0 0   0  0    0 0000 0000             \n";
+			cout << "\n\n > ";	
+			cin >> bin;
+			
+			/*cria e abre um arquivo do tipo .txt em modo de gravacao e em seguida grava uma
+			string seguida do codigo dentro da variavel bin*/
+			FILE * arq_bin; 
+			arq_bin = fopen ("bin.txt","wt"); 
+			fprintf (arq_bin, "fastboot flash logo %s",bin); 
+			fclose (arq_bin); 
+			
+			/*renomeia o arquivo bin.txt criado para bin.bat e executa esse arquivo em seguida,
+			apos sua execuÃ§ao o arquivo e removido da pasta raiz*/
+			system("ren bin.txt bin.bat");
+	   		system("bin.bat"); 
+	   		system("del bin.bat"); 
+	   		system("cls");
+	   		
+			/*exibe a mensagem de que o bin foi injetado com sucesso*/
+	   		cout << "\n Success! the " << bin << " file was injected!";
+			getch();
+			
+			exit(0);
+			break;
+			
+		case 4: //Magisk
 			cout << "\n Magisk/Tutorial";
 			cout << "\n  How to install Magisk";
 			cout << "\n\n 1. Go to Magisk page on GitHub: https://github.com/topjohnwu/Magisk";
@@ -172,10 +219,10 @@ int main()
 			cout << "\n\n\n done! now you can enjoy the magic!";
 			getch();
 			
-			exit(0);
+			exit(0);	
 			break;
 			
-		case 4:
+		case 5:	//apk install
 			reload:
 				
 			char apk[500];
@@ -221,10 +268,9 @@ int main()
 			} else {
 				exit(0);
 			}
-						
 			break;
 			
-		case 5:	
+		case 6: //apk uninstall
 			cout << "\n Enable usb debugging on your device,";
 			cout << "\n\n  Go to your device settings, enable developer mode\n  and within that option enable usb debug mode!\n";	
 			cout << "\n\n  type the command followed by the package name as in\n  the example below and press [ENTER]\n";
