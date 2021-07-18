@@ -69,7 +69,7 @@ void twrp() {
 	cout << " connect your device to the PC and  press  [ENTER],  on  the" << endl;
 	cout << " next screen, move the twrp image file to the command prompt" << endl;
 	cout << " press [ENTER] again and  wait  for  the  image  to install." << endl;
-    textcolor(6); //Cinza (Opaco)
+    	textcolor(6); //Cinza (Opaco)
 
 	cout << "\n ! it is not necessary to rename the file to (twrp.img)," << endl;
 	cout << "     the program will do this during the installation process..." << endl;
@@ -85,7 +85,7 @@ void twrp() {
 	cout << " * Unlocked bootloader (see the video on how to unlock on my youtube channel)" << endl;
 	cout << "   [https://www.youtube.com/channel/UCqnVsLksN6n7XjpDP-urM5Q]\n\n\n\n";
 
-    textcolor(6); //Verde
+    	textcolor(6); //Verde
 	cout << "   DRAG THE IMG FILE HERE,         \n";
 	cout << "   AND PRESS [ENTER] TO CONTINUE!  \n";
 	cout << "                                   \n";
@@ -169,36 +169,44 @@ void bootloader() {
 
 	clrscr();
 
-	//abre o arquivo unlock.html
+	//Abre o arquivo unlock.html
 	system("unlock.htm");
-    
-	//AQUI ----------------------------------------------------------------------------------------
+    	textcolor(15);
 	
-	//exige o codigo de desbloqueio enviado ao e-mail, key armazena o codigo de ate 30 caracteres
-	textcolor(15);
+	//Exige o código de desbloqueio enviado ao e-mail, key armazena o código de ate 30 caracteres.
 	cout << "\n Put Your Unlock code here and press [ENTER] > ";
 	cin >> key;
 
-	/*cria e abre um arquivo do tipo .txt em modo de gravacao e em seguida grava uma
-	string seguida do codigo dentro da variavel key*/
+	/*
+	Cria e abre um arquivo do tipo .txt em modo de gravacao e em seguida grava uma
+	string seguida do código dentro da variável key
+	*/
+	
 	FILE * file_key;
 	file_key = fopen ("key.txt","wt");
 	fprintf (file_key, "fastboot oem unlock %s",key);
 	fclose (file_key);
 
-	//operecoes com o arquivo criado
+	/*
+	Renomeia o arquivo de texto para bat e em seguida executa o arquivo
+	e após a sua execução o arquivo é excluído.
+	*/
+	
 	system("ren key.txt key.bat");
 	system("key.bat");
 	system("del key.bat");
-	system("cls");
+	
+	clrscr();
 
-	//exibe uma mensagem de sucesso
+	//Se o bootloader for desbloqueado ele exibe uma mensagem de sucesso!
 	textcolor(6);
 	cout << "\n Bootloader has been unlocked, press [ENTER] to exit...";
 	getch();
 
 	exit(0);
 }
+
+//!HERE-------------------------------------------------------------------------------------------------------------
 
 void bootloaderLogo() {
 
