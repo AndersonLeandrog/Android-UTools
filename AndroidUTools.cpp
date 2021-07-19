@@ -18,7 +18,7 @@ int main() {
 	int processo;
 
 	//Exibe um título e modifica a cor do texto
-	system("title @OCOD ~ AndroidUserTools_v1.3.6 (stable)");
+	system("title @OCOD ~ AndroidUserTools_v1.3.7 (stable)");
 	textcolor(15);
 
 	//Exibe uma mensagem ao usuário e grava o valor na variável 'processo'
@@ -206,29 +206,28 @@ void bootloader() {
 	exit(0);
 }
 
-//!HERE-------------------------------------------------------------------------------------------------------------
+/*
+	FUNÇÃO BOOTLOADERLOGO
+*/
 
 void bootloaderLogo() {
-
-	//cria uma variavel do tipo char que suporta ate 120 caracteres
 	char bin[120];
-
-	//exibe uma cadeia de mensagens
 	textcolor(15);
+	
 	cout << "\n Connect your device in fastboot mode and press [ENTER]...";
 	getch();
 
 	clrscr();
 
 	cout << "\nCheck if your device has been recognized, if so press [ENTER] again...\n\n";
-	system("fastboot devices"); //verfica se existe algum aparelho conectado
+	system("fastboot devices"); //Verifica se existe algum aparelho conectado.
 	getch();
 
 	clrscr();
 
 	cout << "\n You will need the logo file for your cell phone model\n in .bin format, drag the file to the console below and press [ENTER]\n\n\n";
-
 	textcolor(6);
+	
 	cout << "   DRAG THE BIN FILE HERE,          \n";
 	cout << "   AND PRESS [ENTER] TO CONTINUE!   \n";
 	cout << "                                    \n";
@@ -240,14 +239,20 @@ void bootloaderLogo() {
 	cout << "\n\n > ";
 	cin >> bin; //grava o caminho do arquivo
 
-	/*cria e abre um arquivo do tipo .txt em modo de gravacao e em seguida grava uma
-	string seguida do codigo dentro da variavel bin*/
+	/*
+	Cria e abre um arquivo do tipo .txt em modo de gravação e em seguida grava uma
+	string seguida do código dentro da variavel bin.
+	*/
+	
 	FILE * file_bin;
 	file_bin = fopen ("bin.txt","wt");
 	fprintf (file_bin, "fastboot flash logo %s",bin);
 	fclose (file_bin);
 
-	//operacoes com o arquivo criado
+	/*
+	Renomeia o arquivo txt para bat, executa e após sua execução remove o arquivo.
+	*/
+	
 	system("ren bin.txt bin.bat");
 	system("bin.bat");
 	system("del bin.bat");
@@ -263,9 +268,9 @@ void bootloaderLogo() {
 }
 
 void magisk() {
-
-	//exibe uma mensagem/tutorial de instalacao do magisk
 	textcolor(15);
+	
+	//Instalação do Magisk tutorial.
 	cout << "\n Magisk/Tutorial";
 	cout << "\n  How to install Magisk";
 	cout << "\n\n 1. Go to Magisk page on GitHub: https://github.com/topjohnwu/Magisk";
@@ -280,20 +285,16 @@ void magisk() {
 }
 
 void apkInstall() {
-
-	//usa goto, recarrega o codigo a partir daqui
-	reload:
-
-	//cria duas variaveis do tipo char, com uma suportando ate 500 caracteres
+	reload: //Recarrega o código a partir daqui. 
+	
 	char apk[500];
 	char answer;
 
-	//exibe uma mensagem
 	textcolor(15);
 	cout << "\n Enable usb debugging on your device,";
 	cout << "\n\n  Go to your device settings, enable developer mode\n  and within that option enable usb debug mode!\n\n";
-
 	textcolor(6);
+	
 	cout << "   DRAG THE APK FILE HERE,             \n";
 	cout << "   AND PRESS [ENTER] TO CONTINUE!      \n";
 	cout << "                                       \n";
@@ -303,23 +304,25 @@ void apkInstall() {
 	cout << "   0   0 0     0 0   0    0 0    0     \n";
 	cout << " 0 0   0 0     0  0  0    0 0000 0000  \n";
 	cout << "\n\n > ";
-	cin >> apk; //grava o caminho do arquivo na variavel apk
+	cin >> apk; //grava o caminho do arquivo na variável apk
 
-	/*cria e abre um arquivo do tipo .txt em modo de gravacao e em seguida grava uma
-	string seguida do codigo dentro da variavel apk*/
+	/*
+	Cria e abre um arquivo do tipo .txt em modo de gravacao e em seguida grava uma
+	string seguida do codigo dentro da variavel apk
+	*/
+	
 	FILE * file_apk;
 	file_apk = fopen ("apk.txt","wt");
 	fprintf (file_apk, "adb install -r %s",apk);
 	fclose (file_apk);
 
-	//operacoes com o arquivo criado
 	system("ren apk.txt apk.bat");
 	system("apk.bat");
 	system("del apk.bat");
 
 	clrscr();
 
-	//exibe uma mensagem de sucesso e pergunta se o usuario deseja executar o programa mais uma vez
+	//exibe uma mensagem de sucesso e pergunta se o usuário deseja executar o programa mais uma vez
 	textcolor(15);
 	cout << "\n " << apk << " - has been successfully installed!";
 	cout << "\n\n Install another apk? [y]//[n]";
@@ -336,9 +339,8 @@ void apkInstall() {
 }
 
 void apkUninstall() {
-
-	//exibe uma mensagem
 	textcolor(15);
+	
 	cout << "\n Enable usb debugging on your device,";
 	cout << "\n\n  Go to your device settings, enable developer mode\n  and within that option enable usb debug mode!\n";
 	cout << "\n\n  type the command followed by the package name as in\n  the example below and press [ENTER]\n";
