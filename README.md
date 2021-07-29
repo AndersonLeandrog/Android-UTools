@@ -5,7 +5,7 @@
 
 **Downloads**
 
-[![GitHub releases](https://img.shields.io/badge/__runTWRP-stable-brightgreen)](https://github.com/AndersonLeandrog/RunTWRP/releases) [![GitHub releases](https://img.shields.io/badge/__runTWRP-beta-orange)](https://github.com/AndersonLeandrog/RunTWRP/releases) [![GitHub issues](https://img.shields.io/badge/all--ver-Onedrive-informational)](https://onedrive.live.com/?authkey=%21ABHaik5143444M4&id=C1C3CF7F2C302005%21124&cid=C1C3CF7F2C302005)
+[![GitHub releases](https://img.shields.io/badge/AndroidUT-stable-sucess)](https://github.com/AndersonLeandrog/RunTWRP/releases) [![GitHub releases](https://img.shields.io/badge/AndroidUT-beta-orange)](https://github.com/AndersonLeandrog/RunTWRP/releases) [![GitHub issues](https://img.shields.io/badge/all--ver-Onedrive-informational)](https://onedrive.live.com/?authkey=%21ABHaik5143444M4&id=C1C3CF7F2C302005%21124&cid=C1C3CF7F2C302005)
 
 
 **Prerequisites**
