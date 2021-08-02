@@ -3,7 +3,7 @@
 
 void apkInstall()
 {
-	reload: //Recarrega o cÛdigo a partir daqui.
+	reload: 
 
 	char answer;
 
@@ -21,7 +21,7 @@ void apkInstall()
 	std::cout << "   0   0 0     0 0   0    0 0    0     \n";
 	std::cout << " 0 0   0 0     0  0  0    0 0000 0000  \n";
 	std::cout << "\n\n digit '/r' to return \n\n > ";
-	std::cin >> archives; //grava o caminho do arquivo na vari·vel apk
+	std::cin >> archives; //grava o caminho do arquivo na vari√°vel apk
 
     clrscr();
 
@@ -43,7 +43,7 @@ void apkInstall()
 
 	clrscr();
 
-	//exibe uma mensagem de sucesso e pergunta se o usu·rio deseja executar o programa mais uma vez
+	//exibe uma mensagem de sucesso e pergunta se o usu√°rio deseja executar o programa mais uma vez
 	textcolor(15);
 	std::cout << "\n " << archives << " - has been successfully installed!";
 	std::cout << "\n\n Install another apk? [y]//[n]";
