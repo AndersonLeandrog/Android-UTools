@@ -3,8 +3,7 @@
 
 void magisk()
 {
-	textcolor(15);
-
+	textcolor(14);
 	cout << "\n Magisk/Tutorial";
 	cout << "\n  How to install Magisk";
 	cout << "\n\n 1. Go to Magisk page on GitHub: https://github.com/topjohnwu/Magisk";
@@ -13,8 +12,10 @@ void magisk()
 	cout << "\n\n 4. Select the zip and flash file...";
 	cout << "\n\n 5. After flashing the file, boot the system and install\n    the latest version of margisk.apk";
 	cout << "\n\n\n done! now you can enjoy the magic!";
+
+	textcolor(15);
 	cout << "\n\n digit '/r' to return \n\n > ";
-	cin >> archives; //grava o caminho do arquivo na variável path
+	cin >> archives;
 
     clrscr();
 
