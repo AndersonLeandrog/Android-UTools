@@ -19,10 +19,10 @@ using namespace std;
 #include "apk.h"
 #include "adb.h"
 
-int main(int argc, char * argv[]) {
-
-    system("title AndroidUserTools");
-
+int main(int argc, char * argv[]) 
+{
+	system("title AndroidUserTools");
+	
 	int processo;
 
 	textcolor(3);
