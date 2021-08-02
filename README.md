@@ -23,8 +23,9 @@ Download the AndroidUserTools(stable).zip and then extract all its contents to y
 
 
 **Technologies Used**
-- BatchScript
 - C/C++
+- BatchScript
+
 
 
 **Contribution**
