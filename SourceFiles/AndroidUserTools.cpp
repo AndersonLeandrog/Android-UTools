@@ -9,6 +9,9 @@
 
 using namespace std;
 
+#define VER "1.4.9"
+string archives;
+
 #include "twrp.h"
 #include "bootloader.h"
 #include "bootloaderLogo.h"
@@ -16,13 +19,10 @@ using namespace std;
 #include "apk.h"
 #include "adb.h"
 
-#define VER "1.4.9"
-string archives;
-
-int main(int argc, char * argv[]) 
+int main(int argc, char * argv[])
 {
     system("title AndroidUserTools");
-	
+
 	int processo;
 
 	textcolor(2);
