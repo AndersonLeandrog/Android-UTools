@@ -7,9 +7,6 @@
 #include <windows.h>
 #include <fstream>
 
-#define VER "1.4.9"
-std::string archives;
-
 using namespace std;
 
 #include "twrp.h"
@@ -19,13 +16,16 @@ using namespace std;
 #include "apk.h"
 #include "adb.h"
 
+#define VER "1.4.9"
+string archives;
+
 int main(int argc, char * argv[]) 
 {
-	system("title AndroidUserTools");
+    system("title AndroidUserTools");
 	
 	int processo;
 
-	textcolor(3);
+	textcolor(2);
 	cout << "\n Github.com/AndersonLeandrog\n";
 	cout << " Youtube.com/OCodificador\n\n";
 	cout << " @OCOD" << " * " << "VER" << " " << VER << " En-US\n\n\n";
