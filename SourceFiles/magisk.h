@@ -5,7 +5,7 @@ void magisk()
 {
 	textcolor(14);
 	cout << "\n Magisk/Tutorial";
-	cout << "\n  How to install Magisk";
+	cout << "\n  How to install Magisk!";
 	cout << "\n\n 1. Go to Magisk page on GitHub: https://github.com/topjohnwu/Magisk";
 	cout << "\n\n 2. Download the Magisk zip file and move the zip from your PC\n    to your device's SD card (recommended)";
 	cout << "\n\n 3. Open TWRP on your device, click 'install'\n    and look for the magisk zip file";
