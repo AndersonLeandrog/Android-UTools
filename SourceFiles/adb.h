@@ -20,16 +20,30 @@ void adbPull()
     cin >> archives;
 
     clrscr();
-
-    if(archives == "/r") { system("AndroidUserTools.exe"); }
-
+    
+    //se o usuário der o comando /r o programa será reaberto.
+    
+    if(archives == "/r") { 
+        system("AndroidUserTools.exe"); 
+    }
+    
+    //cria uma pasta na raiz do programa
+    
     system("mkdir files");
-
-    std::ofstream adbPullD;
+    
+    //cria um arquivo de texto chamado path.txt e insere o comando (adb pull (archives) files) onde:
+    //'adb pull' refere-se ao comando para enviar um arquivo do Android para o PC via adb.
+    //'archives' é a variável que armazena o diretório do arquivo que será movido.
+    //'files' é a pasta criada, que receberá o arquivo do diretório de 'archives'.
+    
+    ofstream adbPullD;
     adbPullD.open("path.txt");
     adbPullD << "adb pull" << " " << archives  << " " << "files";
     adbPullD.close();
-
+    
+    //converte o txt anteriormente criado para batchScript, em seguida executa esse script
+    //e ao final de sua execução ele irá remover o batchScript.
+    
     system("ren path.txt path.bat");
     system("path.bat");
     system("del path.bat");
@@ -60,14 +74,24 @@ void adbPush()
     cin >> archives;
 
     clrscr();
-
-    if(archives == "/r") { system("AndroidUserTools.exe"); }
-
-    //creates a folder in the root directory of the program called 'usr.files' -
+    
+    //se o usuário der o comando /r o programa será reaberto.
+    
+    if(archives == "/r") {
+        system("AndroidUserTools.exe"); 
+    }
+    
+    //cria uma pasta na raiz do programa chamada 'usr.files'.
+    
     system("mkdir usr.files");
-
-    //generates a txt file with instructions to move the created folder to the device in sdcard/'usr.files'
-    //and then moves the files from the address stored in the archives variable to that folder moved to the device.
+    
+    //cria um arquivo de texto chamado path.txt e insere o comando (adb push usr.files sdcard/)
+    //seguido do comando (adb push (archives) sdcard/usr.files) onde:
+    
+    //O primeiro comando copia a pasta que foi criada na raiz do programa e cola ela na memória interna do Android.
+    //O segundo move os arquivos do diretório informado pelo usuário dentro da variável 'archives' para a pasta
+    //que foi colada na memória interna, isso é: a pasta 'usr.files'
+    
     ofstream adbPushD;
     adbPushD.open("path.txt");
     adbPushD << "adb push usr.files" << " " << "sdcard/" << "\n" << "adb push" << " " << archives << " " << "sdcard/usr.files";
@@ -75,8 +99,9 @@ void adbPush()
 
     getch();
 
-    //to execute the commands stored in the file path.txt,
-    //this same file is converted from txt to bat and then executed, after its execution the file is deleted.
+    //converte o txt anteriormente criado para batchScript, em seguida executa esse script
+    //e ao final de sua execução ele irá remover o batchScript.
+    
     system("ren path.txt path.bat");
     system("path.bat");
     system("del path.bat");
