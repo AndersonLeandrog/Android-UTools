@@ -8,22 +8,22 @@ void apkInstall()
 	char answer;
 
 	textcolor(15);
-	std::cout << "\n Enable usb debugging on your device,";
-	std::cout << "\n\n  Go to your device settings, enable developer mode\n  and within that option enable usb debug mode!\n\n";
+	cout << "\n Enable usb debugging on your device,";
+	cout << "\n\n  Go to your device settings, enable developer mode\n  and within that option enable usb debug mode!\n\n";
 
 	textcolor(8);
-	std::cout << "   DRAG THE APK FILE HERE,             \n";
-	std::cout << "   AND PRESS [ENTER] TO CONTINUE!      \n";
-	std::cout << "                                       \n";
-	std::cout << "     0   0000  0  0  0000 0 0    0000  \n";
-	std::cout << "    0 0  0   0 0 0   0    0 0    0     \n";
-	std::cout << "   00000 0000  00    000  0 0    0000  \n";
-	std::cout << "   0   0 0     0 0   0    0 0    0     \n";
-	std::cout << " 0 0   0 0     0  0  0    0 0000 0000  \n";
+	cout << "   DRAG THE APK FILE HERE,             \n";
+	cout << "   AND PRESS [ENTER] TO CONTINUE!      \n";
+	cout << "                                       \n";
+	cout << "     0   0000  0  0  0000 0 0    0000  \n";
+	cout << "    0 0  0   0 0 0   0    0 0    0     \n";
+	cout << "   00000 0000  00    000  0 0    0000  \n";
+	cout << "   0   0 0     0 0   0    0 0    0     \n";
+	cout << " 0 0   0 0     0  0  0    0 0000 0000  \n";
 
 	textcolor(15);
-	std::cout << "\n\n digit '/r' to return \n\n > ";
-	std::cin >> archives; //grava o caminho do arquivo na variável apk
+	cout << "\n\n digit '/r' to return \n\n > ";
+	cin >> archives; 
 
     clrscr();
 
@@ -41,10 +41,10 @@ void apkInstall()
 	clrscr();
 
 	textcolor(15);
-	std::cout << "\n " << archives << " - has been successfully installed!";
-	std::cout << "\n\n Install another apk? [y]//[n]";
-	std::cout << "\n\n > ";
-	std::cin >> answer;
+	cout << "\n " << archives << " - has been successfully installed!";
+	cout << "\n\n Install another apk? [y]//[n]";
+	cout << "\n\n > ";
+	cin >> answer;
 
 	if (answer == 'y' or answer == 'Y') {
 		system("cls");
@@ -58,13 +58,13 @@ void apkInstall()
 void apkUninstall()
 {
 	textcolor(15);
-	std::cout << "\n Enable usb debugging on your device,";
-	std::cout << "\n\n  Go to your device settings, enable developer mode\n  and within that option enable usb debug mode!\n";
-	std::cout << "\n\n  type the command followed by the package name as in\n  the example below and press [ENTER]\n";
+	cout << "\n Enable usb debugging on your device,";
+	cout << "\n\n  Go to your device settings, enable developer mode\n  and within that option enable usb debug mode!\n";
+	cout << "\n\n  type the command followed by the package name as in\n  the example below and press [ENTER]\n";
 
 	textcolor(8);
-	std::cout << "\n  exemple: pm uninstall -k --user 0 com.yourpackage.name";
-	std::cout << "\n           ---------command-------- -----packagename----\n\n\n";
+	cout << "\n  exemple: pm uninstall -k --user 0 com.yourpackage.name";
+	cout << "\n           ---------command-------- -----packagename----\n\n\n";
 
 	textcolor(15);
 	system("adb shell");
