@@ -10,7 +10,7 @@ void twrp()
 	cout << " press [ENTER] again and  wait  for  the  image  to install.\n";
 
     textcolor(8);
-	cout << "\n ! it is not necessary to rename the file to (twrp.img),\n";
+	cout << "\n !! it is not necessary to rename the file to (twrp.img),\n";
 	cout << "     the program will do this during the installation process...\n";
 
 	textcolor(15);
