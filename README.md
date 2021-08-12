@@ -1,6 +1,6 @@
 ![Alt text](https://i.ibb.co/8DCdGgG/Banner.png)
 
-Instale o TWRP em qualquer aparelho Motorola automaticamente com o AndroidUserTools, esse é um executável desenvolvido para automatizar a instalação do TWRP, bootloader, magisk e mais, desenvolvido e compilado em CPP, dentre as suas vantagens está a inclusão de uma grande lista de aparelhos, inclusive de diversas marcas de celular, o arquivo pesa menos de 1.5MB, siga o tutorial para saber como usar esse softeare!
+Instale o TWRP em qualquer aparelho Motorola automaticamente com o AndroidUserTools, esse é um executável desenvolvido para automatizar a instalação do TWRP, bootloader, magisk e mais, desenvolvido e compilado em CPP, dentre as suas vantagens está a inclusão de uma grande lista de aparelhos, inclusive de diversas marcas de celular, o arquivo pesa menos de 1.5MB, siga o tutorial para saber como usar esse software!
 
 **Downloads**
 
