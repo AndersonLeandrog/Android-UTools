@@ -1,43 +1,42 @@
 ![Alt text](https://i.ibb.co/8DCdGgG/Banner.png)
 
-Install TWRP on any device automatically with AndroidUserTools, this is an executable designed to automate the installation of TWRP,bootloader unlock, magisk installation and more, developed and compiled in CPP, among its advantages is the inclusion of several compatible devices of different brands, the file weighs less than 1.5MB follow the tutorial to learn how to use the software.
-
+Instale o TWRP em qualquer aparelho Motorola automaticamente com o AndroidUserTools, esse é um executável desenvolvido para automatizar a instalação do TWRP, bootloader, magisk e mais, desenvolvido e compilado em CPP, dentre as suas vantagens está a inclusão de uma grande lista de aparelhos, inclusive de diversas marcas de celular, o arquivo pesa menos de 1.5MB, siga o tutorial para saber como usar esse softeare!
 
 **Downloads**
 
 [![GitHub releases](https://img.shields.io/badge/AndroidUT-stable-sucess)](https://github.com/AndersonLeandrog/RunTWRP/releases) [![GitHub releases](https://img.shields.io/badge/AndroidUT-beta-orange)](https://github.com/AndersonLeandrog/RunTWRP/releases) [![GitHub issues](https://img.shields.io/badge/all--ver-Onedrive-informational)](https://onedrive.live.com/?authkey=%21ABHaik5143444M4&id=C1C3CF7F2C302005%21124&cid=C1C3CF7F2C302005)
 
 
-**Prerequisites**
+**Pré-requisitos**
 ```
-- ADB and Fastboot drivers
-- Computer running Windows (x86 or x64)
-- Drivers for your device model
+- ADB e Fastboot drivers
+- Computador rodando Windows (x86 or x64)
+- Drivers para o modelo do seu aparelho
 ```
 
-**Installation tutorial**
+**Tutorial de Instalação**
 
-Download the AndroidUserTools(stable).zip and then extract all its contents to your desktop or wherever you prefer, open AndroidUserTools.exe and follow the tutorial for each process, whether installing TWRP, unlocking bootloader or installing Magisk...
+Faça o Download do AndroidUserTools(stable).zip e depois extraia todos os arquivos para o seu desktop ou local que você preferir, abra o AndroidUserTools.exe e siga o tutorial para cada processo, Seja a instalação do TWRP, desbloqueio do bootloader ou instalação do Magisk...
 
 [![Alt text](https://i.ibb.co/JsRKw0J/Sem-T-tulo.png)](https://www.youtube.com/watch?v=xGDmMr4wF7I&feature=youtu.be)
 
 
-**Technologies Used**
+**Technologias Usadas**
 - C/C++
 - BatchScript
 
 
 
-**Contribution**
+**Contribuição**
 - [TWRP Site](www.twrp.me) :+1:
 - [ClockWorkMode](www.adb.clockworkmod.com) :+1:
 - [Motorola Site](www.motorola.com.br) :+1:
 
 
-**Author**
+**Autor**
 - Anderson Leandro  
 
 
 
-**License**
+**Licença**
 [MIT](https://choosealicense.com/licenses/mit/)
