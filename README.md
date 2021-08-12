@@ -10,6 +10,12 @@ Instale o TWRP em qualquer aparelho Motorola automaticamente com o AndroidUserTo
 2. As versões convencionais serão perdidas?
 - R: Não, todas as versões lançadas até o momento ainda serão disponibilizadas, embora a recomendação seja sempre que o usuário utilize as versões mais recentes do software!
 
+3. As versões convencionais ainda serão atualizadas?
+- R: Somente para correção de futuros bugs, nenhuma outra função de alta escala será adicionada as versões executadas por meio do prompt de comando o Windows. 
+
+5. Existe alguma previsão para o lançamento?
+- R: O Projeto já foi estudado e agora está em fase de desenvolvimento e posteriormente em fase de testes, isso demanda um certo período de tempo, como este projeto é tocado somente por um desenvolvedor ainda, não há garantia de datas, no entanto é certo que estará finalizado ao menos no primeiro semestre de 2022, até Junho.
+
 
 
 **Downloads**
