@@ -1,4 +1,4 @@
-![Alt text](https://i.ibb.co/vhFZXwG/Sem-T-tulo-1.png)
+![Alt text](https://i.ibb.co/8DCdGgG/Banner.png)
 
 Install TWRP on any device automatically with AndroidUserTools, this is an executable designed to automate the installation of TWRP,bootloader unlock, magisk installation and more, developed and compiled in CPP, among its advantages is the inclusion of several compatible devices of different brands, the file weighs less than 1.5MB follow the tutorial to learn how to use the software.
 
